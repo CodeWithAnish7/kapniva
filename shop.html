@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop | KapNiva</title>
+<meta name="description" content="KapNiva is a local fashion marketplace connecting customers with clothing stores in their city.">
+<meta property="og:title" content="KapNiva | Aapke Shehar Ki Dukaan, Aapke Ghar Pe">
+<meta property="og:description" content="KapNiva is a local fashion marketplace connecting customers with clothing stores in their city.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#24140D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='26' fill='%2324140D'/%3E%3Ctext x='50' y='70' font-size='64' text-anchor='middle' fill='%23D4A94F' font-family='Georgia'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav" style="width:100%">
+    <a href="index.html" class="logo"><span class="logo-mark">K</span>KapNiva</a>
+    <button class="menu-btn" aria-label="Menu">&#9776;</button>
+    <nav class="nav-links">
+      <a href="index.html#how" class="">How it works</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="sellers.html" class="">For sellers</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="contact.html" class="">Contact</a>
+      <span class="pill">App coming soon</span>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="page-hero"><div class="container"><span class="eyebrow">Shop</span><h1>Fashion from <em>local stores</em></h1><p>Browse what stores in your city are selling. To order, use the KapNiva app.</p></div></div>
+<section style="padding-top:20px">
+  <div class="container">
+    <div class="toolbar"><input id="q" class="search" type="search" placeholder="Search shirts, kurtas, jeans..." aria-label="Search products"></div>
+    <div class="chips2" id="chips"></div>
+    <div class="count" id="count">Loading...</div>
+    <div class="p-grid" id="p-grid"><div class="empty">Loading products...</div></div>
+    <div style="margin-top:40px;text-align:center"><button class="btn btn-primary" data-app="order">Order in the KapNiva app &rarr;</button></div>
+  </div>
+</section>
+<section style="padding-top:20px">
+  <div class="container"><div class="center"><span class="eyebrow">Our stores</span><h2 class="sec-title">Local <em>stores</em></h2></div><div class="shops" id="shops" style="margin-top:30px"></div></div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container" style="width:100%">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-mark">K</span>KapNiva</a>
+        <p style="max-width:300px;font-size:14.5px">Aapke Shehar Ki Dukaan, Aapke Ghar Pe. A marketplace for the clothing stores in your own city.</p>
+      </div>
+      <div><h5>Explore</h5><a href="shop.html">Shop</a><a href="index.html#how">How it works</a><a href="sellers.html">Sell on KapNiva</a><a href="index.html#faq">FAQ</a></div>
+      <div><h5>Legal</h5><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="refund.html">Cancellation &amp; Refund</a></div>
+      <div><h5>Contact</h5><a href="contact.html">Get in touch</a><a href="mailto:kapniva@gmail.com">kapniva@gmail.com</a></div>
+    </div>
+    <div class="foot-bottom"><span>&copy; 2026 KapNiva. All rights reserved.</span><span>Local fashion marketplace</span></div>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script src="catalog.js"></script>
+<script src="shop.js"></script>
+</body>
+</html>
